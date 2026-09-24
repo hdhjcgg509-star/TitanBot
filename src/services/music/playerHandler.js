@@ -124,6 +124,11 @@ export function setupPlayerHandler(client) {
         try {
             const guildData = getGuildMusicData(player.guildId);
 
+client.user.setActivity)\
+
+    }); 'type: 'LISTENING},
+
+{track.info.title}
             // Keep the Lavalink player's loop mode aligned with the stored preference.
             // Skip temporarily clears track-loop so it can advance; restore it here.
             if (guildData.loop && player.loop !== guildData.loop) {
